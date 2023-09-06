@@ -1,0 +1,65 @@
+body{
+    font-family: Poppins;
+    background-color: #c2f2fe;
+    color: #004e61;
+    padding: 36px;
+}
+
+a{
+    text-decoration: none;
+    color: #00cafb;
+}
+.back-btn{
+    color: white;
+    background-color: #0072A0;
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+h1{
+    padding-left: 10vw;
+}
+p{
+    padding-left: 10vw;
+}
+
+
+#mySidenav a {
+    margin-top: 10vh;
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding:25px 15px;
+    width: 100px;
+    text-decoration: none; 
+    font-size: 16px; 
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+
+#green {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#blue {
+  top: 80px;
+  background-color: #2196F3; 
+}
+
+#red {
+  top: 140px;
+  background-color: #f44336; 
+}
+
+#grey {
+  top: 200px;
+  background-color: #555555;
+}
