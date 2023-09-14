@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK 1</title>
+    <script>
+        function revNumber (form) {
+              var num = form.inputNum.value;
+              let result = num.toString().split('').reverse().join('');
+              alert ("Reverse of the number: " + result);
+          }
+    </script>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<style>
+     body{
+        font-family: Poppins;
+        background-color: #c2f2fe;
+        color: #004e61;
+        padding: 36px;
+    }
+    a{
+        text-decoration: none;
+        color: #00cafb;
+    }
+    .back-btn{
+        color: white;
+        background-color: #0072A0;
+        border-radius: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    h1{
+        text-align: center;
+    }
+    .div-center{
+        display: flex;
+        justify-content: center;
+        margin-top: 36px;
+    }
+    .btn{
+        color: white;
+        background-color: #0072A0;
+        border-radius: 4px;
+    }
+    
+</style>
+<body>
+    <a href="../task_index.html" class="back-btn">Back</a>
+    <h1>TASK 1</h1>
+    <div class="div-center">
+        <form name="myForm" action="" method="GET">
+            Enter a number : <br>
+            <input type="number" name="inputNum" value="">
+            <input class="btn" type="button" name="button" value="Submit" onClick="revNumber(this.form)">
+          </form>
+          
+    </div>
+</body>
+</html>
