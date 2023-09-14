@@ -1,0 +1,89 @@
+
+body, html {
+    height: 100%;
+    font-family: Poppins;
+    background-color: #c2f2fe;
+    color: #004e61;
+    padding: 36px;
+}
+    a{
+        text-decoration: none;
+        color: #00cafb;
+    }
+    .back-btn{
+        color: white;
+        background-color: #0072A0;
+        border-radius: 8px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100dvh;
+    padding-bottom: 15vw;
+}
+
+.rt {
+    text-align: center;
+    color: rgb(85, 85, 249);
+}
+h1{
+    text-align: center;
+}
+h2{
+    padding-left: 20px;
+}
+
+.rform {
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50dvw;
+}
+
+td,th {
+    padding: 10px;
+    
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="tel"], textarea, select {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+input[type="submit"]{
+    width: 80px;
+    height: 30px;
+}
+
+.login-link {
+    text-align: right;
+}
+textarea, input{
+    outline: none;
+    border: none;
+}
+
+p {
+    color: red;
+}
